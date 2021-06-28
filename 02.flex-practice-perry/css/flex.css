@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.block{
+    display: block;
+}
+.w940{
+    width: 940px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;    
+    justify-content:space-between;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #000; */
+    color: #3F5D45;
+}
+.home{
+    margin-right: 60px;
+}
+.dessert{
+    margin-right: 60px;
+}
+.login{
+    margin-right: 80px;
+}
+.banner{
+    margin-bottom: 60px;
+}
+.content{
+    display: flex;
+}
+.lef-list{
+    font-size: 24px;
+    width: 300px;
+    height: 325px;
+    text-align: center;
+
+}
+.lef-list li{ 
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #3F5D45;
+}
+.lef-list li:hover{
+    background: #EAF0ED;
+}
+.lef-list .title{
+    color: #fff;
+    background: #3F5D45;
+    pointer-events: none;
+}
+
+.right-items{
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-content{
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+.itemInfo{
+    display: flex;
+    height: 56px;
+    align-items: center;
+    border-right: 1px solid #EAF0ED;
+    border-left: 1px solid #EAF0ED;
+}
+.name{
+    color: #3F5D45;
+    font-size: 20px;
+    font-weight:lighter;
+    padding: 14px 33px 14px 33px;
+    border-right: 1px solid #EAF0ED;
+    
+}
+.price{
+    color: #3F5D45;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 25px;
+}
+.addCart{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    background: #EAF0ED;
+    color: #3F5D45;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+
+.pagesNumber{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.pagesNumber li{
+    width: 60px;
+    border: 1px solid #EAF0ED;
+    text-align: center;
+    line-height: 60px;
+    color: #3F5D45;
+}
+.pagesNumber .arrowLeft {
+    padding: 18px;
+}
+.pagesNumber .arrowRight{
+    padding: 18px;
+}
+.pagesNumber .page1{
+    background: #3F5D45;
+    color: white;
+}    
